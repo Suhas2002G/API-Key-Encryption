@@ -14,11 +14,10 @@ This repository demonstrates how to **encrypt an API key**, store the encrypted 
 
 ## Prerequisites
 
-- Python 3.x
 - Install required packages:
 
 ```bash
-pip install cryptography python-dotenv
+pip install flask cryptography python-dotenv
 ```
 
 ---
