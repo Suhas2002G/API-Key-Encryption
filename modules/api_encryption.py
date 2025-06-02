@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Make sure this is called once globally (usually in main.py)
 
-class EncryptApiKeys:
+class ApiKeyProtector:
     @staticmethod
     def encrypt_api_key(api_key):
         encryption_key = os.getenv("FERNET_KEY")
