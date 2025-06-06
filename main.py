@@ -1,7 +1,7 @@
 import os
 from flask import Flask
 from cryptography.fernet import Fernet
-from modules.api_encryption import ApiKeyProtector
+from modules import ApiKeyProtector
 
 app = Flask(__name__)
 
