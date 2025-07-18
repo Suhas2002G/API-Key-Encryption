@@ -2,6 +2,9 @@ import os
 from flask import Flask
 from cryptography.fernet import Fernet
 from modules import ApiKeyProtector
+from dotenv import load_dotenv
+
+load_dotenv()  
 
 app = Flask(__name__)
 
