@@ -1,6 +1,7 @@
 import os
 from cryptography.fernet import Fernet
 from dotenv import load_dotenv
+from dotenv import load_dotenv
 
 load_dotenv()  # Make sure this is called once globally (usually in main.py)
 
