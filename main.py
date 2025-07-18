@@ -24,6 +24,5 @@ encrypted_api_key = os.getenv("SAMPLE_ENCRYPED_API")
 decrypted_api_key = ApiKeyProtector.decrypt_api_key(encrypted_api_key)
 print(decrypted_api_key)
 
-
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
